@@ -35,5 +35,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
           ]
   end
 
-  config.vm.network :forwarded_port, guest: 4445, host: 4444
+  config.vm.network :forwarded_port, guest: 4444, host: 4444
 end
